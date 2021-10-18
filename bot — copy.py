@@ -110,5 +110,98 @@ async def handler(_) -> str:
 @bot.on.message(text="Samogon")
 async def handler(_) -> str:
     return "@botsamogon"
+    
+@bot.on.message(text="хуй")
+async def handler(_) -> str:
+    return "пиздуй"
+    
+@bot.on.message(text="хостер")
+async def handler(_) -> str:
+    return "наш хостер @ifxser"
+    
+@bot.on.message(text="хаврония")
+async def handler(_) -> str:
+    return "сосет"
+    
+@bot.on.message(text="ОК")
+async def handler(_) -> str:
+    return "кок"
+    
+@bot.on.message(text="ок")
+async def handler(_) -> str:
+    return "Да, бля дай проспаться. Мне завтра на работу"
+    
+@bot.on.message(text="Самогонный аппарат")
+async def handler(_) -> str:
+    return "Давай, самогончика и про админа не забудь"
+    
+@bot.on.message(text="ПидОр")
+async def handler(_) -> str:
+    return "Дыа, БлЯ Мне пОхУяМ"
+    
+@bot.on.message(text="яйца")
+async def handler(_) -> str:
+    return "Твои яички, хорошо можно по яичкам бом-бом трололом делать, да?"
+    
+@bot.on.message(text="терлим бом бом")
+async def handler(_) -> str:
+    return "клянусь своим дурацким лбом"
+    
+@bot.on.message(text="Липси")
+async def handler(_) -> str:
+    return "Доктор Липсиииии-спасите нас"
+    
+@bot.on.message(text="Гомосеки")
+async def handler(_) -> str:
+    return "гомосек- сек- сек ща дурку вызовем"
+    
+@bot.on.message(text="Дурка")
+async def handler(_) -> str:
+    return "дурка выехала за вами, выходите мы уже на улице"
+    
+@bot.on.message(text="Пошля ябаца")
+async def handler(_) -> str:
+    return " Го, всегда готов трахнуть @tidesoft_havroniya"
+    
+@bot.on.message(text="дАй совета")
+async def handler(_) -> str:
+    return " Советский союз, нерушимый, вековой. Вот, был социализм. Было хорошо, все свое. Советы."  
+    
+@bot.on.message(text="Ебанько")
+async def handler(_) -> str:
+    return "Всегда готов рахнуть сразу несколько котов, бросила меня девченка лия и сказато то, что я мудак. Я ебу собак.лушче мне сОбачку пода"    
 
+@bot.on.message(text="ПРИВЕТ ГЕЙ ЛЮБИШЬ СКАЙРИМ ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА")
+async def handler(_) -> str:
+    return "ПРИВЕТ ГЕЙ ЛЮБИШЬ СКАЙРИМ ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА"  
+    
+@bot.on.message(text="СКАЙОРИМ НЕГР ГЕЙ")
+async def handler(_) -> str:
+    return "БУДЕШ РАБОМ СКАОРИМ НЕГР ГЕЙ ВЕЛИКАЯ ИМПЕРИЯ"  
+    
+@bot.on.message(text="botsamogon")
+async def handler(_) -> str:
+    return "хвати меня упоменать, заебали дайте проспаться"
+    
+@bot.on.message(text="@all")
+async def handler(_) -> str:
+    return "иди нахой со своим аллам в жопу его себе засунь"
+    
+@bot.on.message(text="как стать педиком")
+async def handler(_) -> str:
+    return "покупаешь фаллос и в жопу лишаеься девственности"
+    
+@bot.on.message(text="как админ делал бота")
+async def handler(_) -> str:
+    return "бота делал бухим, автор всегда бухой. и если он говрит шо он трезвый то он пиздит"
+    
+@bot.on.message(text="win102018_tv")
+async def handler(_) -> str:
+    return "топ"
+    
+@bot.on.message(text="!")
+async def handler(_) -> str:
+    return "ну и пиздуй, скатертью дорожка"
+    
+    
 bot.run_forever()
