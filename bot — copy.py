@@ -1,6 +1,6 @@
 from vkbottle.bot import Bot, Message
 
-bot = Bot("vk token")
+bot = Bot("ваш VK ТОКЕН")
 
 @bot.on.message(text="персил")
 async def handler(_) -> str:
@@ -12,7 +12,7 @@ async def handler(_) -> str:
 
 @bot.on.message(text="тайд")
 async def handler(_) -> str:
-    return "фу бля, пшел нах"
+    return "фу бля, пошёл нах"
 
 @bot.on.message(text="алкаш")
 async def handler(_) -> str:
@@ -28,7 +28,7 @@ async def handler(_) -> str:
 
 @bot.on.message(text="свинья")
 async def handler(_) -> str:
-    return "ща сам станешь свиньей!"
+    return "в хохляндии?"
 
 @bot.on.message(text="win102018tv")
 async def handler(_) -> str:
@@ -36,7 +36,7 @@ async def handler(_) -> str:
 
 @bot.on.message(text="алл")
 async def handler(_) -> str:
-    return "@all, троллим всех аллам)))"
+    return "@all, не благодарите"
 
 @bot.on.message(text="пидор")
 async def handler(_) -> str:
@@ -52,7 +52,7 @@ async def handler(_) -> str:
 
 @bot.on.message(text="кто любит тайд")
 async def handler(_) -> str:
-    return "тот говноед"
+    return "хохлоёбы"
 
 @bot.on.message(text="зеленая ограда")
 async def handler(_) -> str:
@@ -60,7 +60,7 @@ async def handler(_) -> str:
 
 @bot.on.message(text="30 лет")
 async def handler(_) -> str:
-    return "спасибо, что родили меня на свет"
+    return "Именно столько лет все знают, что ты приёмный"
 
 @bot.on.message(text="путин")
 async def handler(_) -> str:
@@ -69,7 +69,6 @@ async def handler(_) -> str:
 @bot.on.message(text="хочу жрать")
 async def handler(_) -> str:
     return "так иди и пожри, долбан"
-
 
 @bot.on.message(text="водка")
 async def handler(_) -> str:
@@ -87,13 +86,9 @@ async def handler(_) -> str:
 async def handler(_) -> str:
     return "если админ так пишет значит он рили ща пойдет бухать и позже срать в беседе, дайте ему кик"
     
-@bot.on.message(text="Есть идеи еще, что-то добавить пишите")
-async def handler(_) -> str:
-    return "пишите в лс @botsamogon"
-    
 @bot.on.message(text="samogon")
 async def handler(_) -> str:
-    return "@botsamogon"
+    return "Сколько литров и почем"
     
 @bot.on.message(text="группа")
 async def handler(_) -> str:
@@ -101,31 +96,43 @@ async def handler(_) -> str:
     
 @bot.on.message(text="самогон")
 async def handler(_) -> str:
-    return "@botsamogon"
+    return "Тащи два литра"
     
 @bot.on.message(text="Самогон")
 async def handler(_) -> str:
-    return "@botsamogon"
+    return "ООО, ебать самогон го бухац"
     
 @bot.on.message(text="Samogon")
 async def handler(_) -> str:
-    return "@botsamogon"
+    return "Самогон, го самогончику дам свеженького. Го бухац?"
     
 @bot.on.message(text="хуй")
 async def handler(_) -> str:
     return "пиздуй"
-    
+
+@bot.on.message(text="Го бухать")
+async def handler(_) -> str:
+    return "Го"
+
+@bot.on.message(text="Го")
+async def handler(_) -> str:
+    return "Че Гоу? Пиши конкретнее, че надо///"
+
 @bot.on.message(text="хостер")
 async def handler(_) -> str:
-    return "наш хостер @ifxser"
-    
+    return "Amazon AWS"
+
+@bot.on.message(text="host")
+async def handler(_) -> str:
+    return "Amazon AWS"
+
+@bot.on.message(text="localhost")
+async def handler(_) -> str:
+    return "127.0.0.1"
+
 @bot.on.message(text="хаврония")
 async def handler(_) -> str:
     return "сосет"
-    
-@bot.on.message(text="ОК")
-async def handler(_) -> str:
-    return "кок"
     
 @bot.on.message(text="ок")
 async def handler(_) -> str:
@@ -171,7 +178,7 @@ async def handler(_) -> str:
 async def handler(_) -> str:
     return "Всегда готов рахнуть сразу несколько котов, бросила меня девченка лия и сказато то, что я мудак. Я ебу собак.лушче мне сОбачку пода"    
 
-@bot.on.message(text="ПРИВЕТ ГЕЙ ЛЮБИШЬ СКАЙРИМ ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА")
+@bot.on.message(text="гей")
 async def handler(_) -> str:
     return "ПРИВЕТ ГЕЙ ЛЮБИШЬ СКАЙРИМ ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА ДА"  
     
@@ -202,6 +209,143 @@ async def handler(_) -> str:
 @bot.on.message(text="!")
 async def handler(_) -> str:
     return "ну и пиздуй, скатертью дорожка"
+ 
+@bot.on.message(text="пинда")
+async def handler(_) -> str:
+    return "да шо тут сказать, пиндовс опять лагает" 
+    	
+@bot.on.message(text="мак ос")
+async def handler(_) -> str:
+    return "хуйня"
+
+@bot.on.message(text="жека")
+async def handler(_) -> str:
+    return "лучший собутыльник"
+
+@bot.on.message(text="собутыльник")
+async def handler(_) -> str:
+    return "ну конечно же жека!"
+
+@bot.on.message(text="история о жеке")
+async def handler(_) -> str:
+    return "Жил был Жека. Как-то он бомжевал 358 лет, и на помощь пришёл я. Мы просто начали вместе пить, и спились. Конец"
+
+@bot.on.message(text="windows 11")
+async def handler(_) -> str:
+    return "хуйня хуйни хуйняндии в хуйне"
+
+@bot.on.message(text="%username%")
+async def handler(_) -> str:
+    return "%THIS_PIDORAS_TEXT_FOR_USER%"
+
+@bot.on.message(text="шлюха")
+async def handler(_) -> str:
+    return "Это самый лучший способ получить удовольствие. Она готова всем даться, даже пидорам. Ну, разумеется, кроме тебя"
+
+@bot.on.message(text="бсод")
+async def handler(_) -> str:
+    return "АШИШКА СТОП НОЛЬ НОЛЬ НОЛЬ НОЛЬ НОЛЬ НОЛЬ А А А А А А. @all @all @all @all блять ашибка памагите админ пьяный а некому помочь мне"
+
+@bot.on.message(text="говно")
+async def handler(_) -> str:
+    return "ты"
+
+@bot.on.message(text="царь")
+async def handler(_) -> str:
+    return "путин"
+
+@bot.on.message(text="раб")
+async def handler(_) -> str:
+    return "БУДЕШ РАБОМ СКАЙОРИМ НЕГР ГЕЙ"
+
+@bot.on.message(text="помянем")
+async def handler(_) -> str:
+    return "помянем"
+
+
+@bot.on.message(text="водка 000")
+async def handler(_) -> str:
+    return "джеймс бонд водка 777"
+
+
+@bot.on.message(text="Версия")
+async def handler(_) -> str:
+    return "V1.4.5.1beta, Python 3.10, VKBottle"
+
+@bot.on.message(text="V")
+async def handler(_) -> str:
+    return "V1.4.5.1beta, Python 3.10, VKBottle"
+
+@bot.on.message(text="Version")
+async def handler(_) -> str:
+    return "V1.4.5.1beta, Python 3.10, VKBottle"
+
+@bot.on.message(text="версия")
+async def handler(_) -> str:
+    return "V1.4.5.1beta, Python 3.10, VKBottle"
+
+@bot.on.message(text="алл")
+async def handler(_) -> str:
+    return "@all"
+
+@bot.on.message(text="!стоп")
+async def handler(_) -> str:
+    return "ок, прекращаем спам"
+
+@bot.on.message(text="спам")
+async def handler(_) -> str:
+    return "ок, прекращаем спам"
+
+@bot.on.message(text="online")
+async def handler(_) -> str:
+    return "@online"
+
+@bot.on.message(text="!online")
+async def handler(_) -> str:
+    return "@online"
+
+@bot.on.message(text="View")
+async def handler(_) -> str:
+    return "-Исправлены ошибки в коде"
+
+@bot.on.message(text="view")
+async def handler(_) -> str:
+    return "-Исправлены ошибки в коде"
+
+@bot.on.message(text="бомж")
+async def handler(_) -> str:
+    return "я бычок подниму горький дым затяну и полезу обратно домой, не жалайте меня я прекрасно живу только кущац охота порой"
+
+@bot.on.message(text="гена")
+async def handler(_) -> str:
+    return "гена горин из города Орла"
+
+@bot.on.message(text="пиво")
+async def handler(_) -> str:
+    return "давай"
+
+@bot.on.message(text="я")
+async def handler(_) -> str:
+    return "хуйня твоя змея"
+
+@bot.on.message(text="змей")
+async def handler(_) -> str:
+    return "Горыныч"
+
+@bot.on.message(text="Бабка")
+async def handler(_) -> str:
+    return "На гробу танцевала"
+
+@bot.on.message(text="Что ты умеешь")
+async def handler(_) -> str:
+    return "СрАть, пить, бУзХатц"
+
+@bot.on.message(text="1998")
+async def handler(_) -> str:
+    return "Дефолт, инфляция 2500%, крч пздц"
     
-    
+@bot.on.message(text="команды")
+async def handler(_) -> str:
+    return "Чекай закреп @botsamogon"
+
 bot.run_forever()
